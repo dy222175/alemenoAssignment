@@ -1,0 +1,259 @@
+/* Global Styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+#app {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Styles */
+.dashboard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+/* Active Link Styles */
+a.active {
+    color: #10100f;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background-color: #3c75ba;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #15ff00;
+}
+
+/* Header.css */
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #3c75ba;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav .nav-link {
+    margin-right: 140px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #15ff00;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    color: #ffd700;
+    /* Gold color for active links */
+}
+
+.home-link {
+    margin-left: 50px;
+    /* Adjust the value as needed */
+}
+
+.nav-link:last-of-type {
+    margin-right: 50px;
+    /* Ensure the last nav link has consistent spacing */
+}
+
+/* Loading Dots Styles */
+.loading-dots {
+    margin-left: 20px;
+}
+
+
+/* About Page Styles */
+.about-page {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Course Table Styles */
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.course-table th,
+.course-table td {
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.course-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.course-table td {
+    background-color: #f9f9f9;
+}
+
+.course-table a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.course-table a:hover {
+    text-decoration: underline;
+}
+
+/* Author Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th:first-child,
+.table td:first-child {
+    padding-left: 20px;
+}
+
+.table th:last-child,
+.table td:last-child {
+    padding-right: 20px;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+/* Home page */
+/* HomePage.css */
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+/* Title Styles */
+.title {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Subtitle Styles */
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Styles */
+.enter-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.enter-button:hover {
+    background-color: #0056b3;
+    /* Darker shade of primary color */
+    transform: translateY(-3px);
+}
